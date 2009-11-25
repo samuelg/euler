@@ -1,4 +1,4 @@
-# dump approach
+# dumb approach
 import time
 then = time.time()
 
