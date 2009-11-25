@@ -10,6 +10,6 @@ for n in range(900,1000):
 			candidates.append(n * m)
 
 candidates.sort()
-print 'palindromes ' + str(candidates)
+print 'palindromes %s' % str(candidates)
 print 'largest palindrom is %d' % (candidates[-1])
-print time.time() - then
+print 'runtime %s' % (time.time() - then)

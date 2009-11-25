@@ -19,6 +19,6 @@ sum = 0
 for n in evens:
 	sum += n
 
-print sum
-print time.time() - then
+print 'sum = %s' % sum
+print 'runtime %s' % (time.time() - then)
 

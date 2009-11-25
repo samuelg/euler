@@ -22,5 +22,5 @@ while found != True:
 		elif n == increment:
 			found = True			
 
-print test
-print time.time() - then
+print 'result = %s' % test
+print 'runtime %s' % (time.time() - then)

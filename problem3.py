@@ -35,4 +35,4 @@ print 'factorizing'
 factor = primeFactor(number)
 
 print 'largest prime factor for %d is %d' % (number, factor)
-print time.time() - then
+print 'runtime %s' % (time.time() - then)
